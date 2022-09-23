@@ -1,3 +1,4 @@
 #!/bin/bash
-yum install -y httpd
-
+# yum install -y httpd
+apt install apache2 -y
+rm -f /var/www/html/index.html
